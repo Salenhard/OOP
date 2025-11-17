@@ -1,9 +1,11 @@
-package org.example.entity;
+package org.example.strategy;
+
+import org.example.entity.*;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class PumpCreationStrategy implements EquipmentCreationStrategy{
+public class PumpCreationStrategy implements EquipmentCreationStrategy {
 
     @Override
     public EquipmentModel create(String name) {

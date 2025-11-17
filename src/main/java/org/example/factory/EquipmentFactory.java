@@ -1,4 +1,9 @@
-package org.example.entity;
+package org.example.factory;
+
+import org.example.entity.EquipmentModel;
+import org.example.strategy.EquipmentCreationStrategy;
+import org.example.strategy.LightCreationStrategy;
+import org.example.strategy.PumpCreationStrategy;
 
 import java.util.HashMap;
 import java.util.Map;

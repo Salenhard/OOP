@@ -1,4 +1,6 @@
-package org.example.entity;
+package org.example.strategy;
+
+import org.example.entity.*;
 
 import java.util.ArrayList;
 import java.util.Arrays;
